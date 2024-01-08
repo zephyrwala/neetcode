@@ -1,11 +1,5 @@
-import UIKit
 
-//Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
-
-
-//Input: nums = [1,2,3,1]
-//Output: true
-
+import Foundation
 
 func containsDuplicate(_ nums: [Int]) -> Bool {
     var numSet = Set<Int>()
@@ -22,6 +16,7 @@ func containsDuplicate(_ nums: [Int]) -> Bool {
 }
 
 
+containsDuplicate([1,2,4,4,6])
+//1 2 3 4 4
 
-
-
+//1 2 3 4
